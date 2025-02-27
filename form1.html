@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width form2, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>regisration form</legend>
+        <label>name</label>
+        <input type="text"name="name"placeholder="enter your full name" required><br>
+        <label>email</label>
+        <input type="email"name="email"placeholder="enter your  email" required><br>
+        <label>password</label>
+        <input type="password"name="password"placeholder="enter your password"required><br>
+        <label>number:</label>
+        <input type="tel"name="phone"placeholder="enter your phone number" minlength="10" maxlength="12"required><br>
+        <label>courses</label>
+        <input type="checkbox"name="cources"value="html">html <br>
+        <input type="checkbox"name="cources"value="css">css<br>
+        <input type="checkbox"name="cources"value="java">java<br>
+        <label>gender</label>
+        <input type="radio"id="m"name="gender"value="male">male<br>
+        <input type="radio"id="f"name="gender"value="female">female<br>
+        <label>city</label>
+        <select required>
+            <option value="blr">bangaluru</option>
+            <option value="mum">mumbai</option>
+            <option value="ker">kerala</option>
+            <textarea name="address"cols="10"placeholder="enter your  addres"required></textarea>
+
+        </select>
+        <input type="submit"value="submit">
+        <input type="reset" value="reset">
+         </fieldset>
+    </form>
+</body>
+</html>
