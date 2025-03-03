@@ -1,19 +1,41 @@
+
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Instagram Sign Up</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign up • Instagram</title>
+	<link rel="stylesheet" href="instasignup.css">
 </head>
-<body>
-    <h2>Instagram Sign Up</h2>
-    <form id="signUpForm">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required><br><br>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
-        
-        <button type="submit">Sign Up
-            <a href="log in"></a>
+<body style="text-align: center;">
+	<div class="signup-container">
+		<div class="signup-box">
+			<div class="logo">
+				<img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png" alt="Instagram Logo">
+			</div>
+			<form>
+				<input type="email" placeholder="Email"><br>
+				<input type="text" placeholder="Username"><br>
+				<input type="password" placeholder="Password"><br>
+				<input type="password" placeholder="Confirm Password"><br>
+				<button>Sign up</button>
+			</form>
+			<div class="or-separator">
+				<div class="or-line"></div>
+				<div class="or-text">OR</div>
+				<div class="or-line"></div>
+			</div>
+			<div class="facebook-login">
+				<button>Log in with Facebook</button>
+			</div>
+		</div>
+		<div class="signup-footer">
+			<p>Already have an account? <a href="instagram.html">Log in</a></p>
+		</div>
+	</div>
+</body>
+</html>
+
+

@@ -1,0 +1,139 @@
+body{
+    border: 8px solid #696767;
+    padding: 30px 30px 10px 30px;
+}
+
+body { 
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	background-color: #fff;
+}
+
+.signup-container {
+    border: #666;
+	width: 100%;
+	max-width: 350px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box {
+	width: 100%;
+}
+
+.logo {
+	width: 100%;
+	margin-bottom: 20px;
+}
+body{
+    border: 1px solid #696767;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+}
+
+form {
+	width: 100%;
+}
+
+input {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	width: 100%;
+	height: 40px;
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+.or-separator {
+	width: 100%;
+	margin: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.or-line {
+	width: 40%;
+	height: 1px;
+	background-color: #ccc;
+}
+
+.or-text {
+	width: 20%;
+	text-align: center;
+	color: #666;
+}
+
+.facebook-login {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.facebook-login button {
+	background-color: #4267B2;
+	color: #fff;
+}
+
+.signup-footer {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.signup-footer p {
+	color: #666;
+}
+
+.signup-footer a {
+	color: #4CAF50;
+	text-decoration: none;
+}
+
+/* Add some Instagram-style colors */
+.instagram-colors {
+	background-color: #f7f7f7;
+}
+
+.instagram-colors .signup-container {
+	border: 1px solid #e6e6e6;
+}
+
+.instagram-colors .logo img {
+	filter: grayscale(100%);
+}
+
+.instagram-colors button {
+	background-color: #3897f0;
+}
+
+.instagram-colors button:hover {
+	background-color: #2b7de9;
+}
+
+.instagram-colors .facebook-login button {
+	background-color: #4267b2;
+}
+
+.instagram-colors .facebook-login button:hover {
+	background-color: #365899;
+}
+
